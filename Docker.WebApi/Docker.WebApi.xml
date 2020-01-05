@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Docker.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Docker.WebApi.Controllers.WeatherForecastController.Get">
+            <summary>
+            注释
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Docker.WebApi.Controllers.TestInput.Name">
+            <summary>
+            名字
+            </summary>
+        </member>
+        <member name="P:Docker.WebApi.Controllers.TestInput.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:Docker.WebApi.Controllers.TestOutput.Result">
+            <summary>
+            结果
+            </summary>
+        </member>
+    </members>
+</doc>
