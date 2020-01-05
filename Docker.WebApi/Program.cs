@@ -26,6 +26,8 @@ namespace Docker.WebApi
                     context.Database.Migrate();
                 }
             }
+
+            host.Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
