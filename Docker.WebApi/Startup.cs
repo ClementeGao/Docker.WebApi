@@ -44,7 +44,7 @@ namespace Docker.WebApi
 
             services.AddDbContext<NyDbContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString(""));
+                options.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
 
             services.AddSwaggerGen(options =>
