@@ -82,6 +82,8 @@ namespace Docker.WebApi
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "TestApi V1");
                 options.RoutePrefix = string.Empty;
             });
+
+            DbContext. GetPendingMigrations
         }
     }
 }
